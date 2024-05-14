@@ -1,12 +1,12 @@
 // TodoItem.js - https://hashnode.com/@hugotav
-import React from 'react';
+import React from 'react'; //1
 
-const TodoItem = ({ todo, toggleTodo }) => {
-  const handleToggle = () => {
-    toggleTodo(todo.id);
+const TodoItem = ({ todo, toggleTodo }) => { //2
+  const handleToggle = () => { //3
+    toggleTodo(todo.id); //4
   };
 
-  return (
+  return ( //5, 6 e 7
     <div className={`todo-item ${todo.completed ? 'completed' : ''}`}>
       <input
         type="checkbox"
@@ -18,4 +18,4 @@ const TodoItem = ({ todo, toggleTodo }) => {
   );
 };
 
-export default TodoItem;
+export default TodoItem; //8

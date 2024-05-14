@@ -1,0 +1,52 @@
+/* TodoStyles.css */
+.todo-page {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.todo-page h1{
+  text-align: center;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.todo-item p {
+  margin-left: 8px;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.completed input[type="checkbox"] {
+  opacity: 0.5;
+}
+
+.todo-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.todo-credits {
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.todo-credits a {
+  text-decoration: none;
+}
